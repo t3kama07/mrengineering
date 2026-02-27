@@ -19,9 +19,9 @@ export default function Contact(){
 
           <h3 style={{marginTop:18}}>Phone Numbers</h3>
           <p className="subtle">
-            +91 98765 43210<br/>
-            +91 22 1234 5678<br/>
-            Emergency: +91 98888 88888
+            +358 987654321<br/>
+            +358 221234567<br/>
+            Emergency: +358 98888 8888
           </p>
 
           <h3 style={{marginTop:18}}>Email</h3>

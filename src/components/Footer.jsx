@@ -40,7 +40,7 @@ export default function Footer(){
             <h4>Contact Info</h4>
             <div style={{display:'grid',gap:6}}>
               <span>Mannerheimintie 10, Helsinki</span>
-              <a href="tel:+919876543210">+91 98765 43210</a>
+              <a href="tel:+919876543210">+358 98765 3210</a>
               <a href="mailto:info@mrengineering.com">info@mrengineering.com</a>
             </div>
           </div>
