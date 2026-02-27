@@ -23,7 +23,7 @@ export default function Hero(){
         </h1>
 
         <p>
-          MR Engineering — your trusted partner in construction and housing solutions.
+          MR Engineering your trusted partner in construction and housing solutions.
           We bring quality, innovation, and excellence to every project.
         </p>
 

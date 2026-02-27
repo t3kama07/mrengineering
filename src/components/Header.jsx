@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 export default function Header() {
   const [open, setOpen] = useState(false)
+  const [language, setLanguage] = useState('EN')
 
   const closeMenu = () => setOpen(false)
 
@@ -20,6 +21,22 @@ export default function Header() {
           <a href="#services">Services</a>
           <a href="#about">About</a>
           <a href="#careers">Careers</a>
+          <div className="lang-switch" role="group" aria-label="Language switch">
+            <button
+              type="button"
+              className={`lang-btn ${language === 'EN' ? 'active' : ''}`}
+              onClick={() => setLanguage('EN')}
+            >
+              EN
+            </button>
+            <button
+              type="button"
+              className={`lang-btn ${language === 'FI' ? 'active' : ''}`}
+              onClick={() => setLanguage('FI')}
+            >
+              FI
+            </button>
+          </div>
           <a href="#contact" className="cta">Contact Us</a>
         </div>
 
@@ -41,6 +58,22 @@ export default function Header() {
         <a href="#services" onClick={closeMenu}>Services</a>
         <a href="#about" onClick={closeMenu}>About</a>
         <a href="#careers" onClick={closeMenu}>Careers</a>
+        <div className="lang-switch mobile" role="group" aria-label="Language switch">
+          <button
+            type="button"
+            className={`lang-btn ${language === 'EN' ? 'active' : ''}`}
+            onClick={() => setLanguage('EN')}
+          >
+            EN
+          </button>
+          <button
+            type="button"
+            className={`lang-btn ${language === 'FI' ? 'active' : ''}`}
+            onClick={() => setLanguage('FI')}
+          >
+            FI
+          </button>
+        </div>
         <a href="#contact" className="cta" onClick={closeMenu}>Contact Us</a>
       </div>
     </header>

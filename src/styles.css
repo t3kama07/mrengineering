@@ -292,6 +292,35 @@ ul li::before{
 /* Desktop nav */
 .nav-links { display:flex; gap:10px; align-items:center; }
 .mobile-toggle { display:none; }
+.lang-switch{
+  display:inline-flex;
+  align-items:center;
+  gap:4px;
+  padding:3px;
+  border:1px solid #e5e7eb;
+  border-radius:10px;
+  background:#fff;
+}
+.lang-btn{
+  border:0;
+  background:transparent;
+  color:#374151;
+  font-weight:700;
+  font-size:12px;
+  line-height:1;
+  padding:7px 10px;
+  border-radius:8px;
+  cursor:pointer;
+}
+.lang-btn:hover{ background:#f3f4f6; }
+.lang-btn.active{
+  background:var(--brand);
+  color:#fff;
+}
+.mobile-nav .lang-switch.mobile{
+  width:max-content;
+  margin:8px 0 2px;
+}
 
 /* Hamburger */
 .mobile-toggle {

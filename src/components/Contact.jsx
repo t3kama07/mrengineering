@@ -12,9 +12,9 @@ export default function Contact(){
         <div className="card">
           <h3>Office Address</h3>
           <p className="subtle">
-            123 Construction Street<br/>
-            Mumbai, Maharashtra 400001<br/>
-            India
+            Mannerheimintie 10<br/>
+            Helsinki 00100<br/>
+            Finland
           </p>
 
           <h3 style={{marginTop:18}}>Phone Numbers</h3>
